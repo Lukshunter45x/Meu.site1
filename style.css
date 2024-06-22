@@ -1,0 +1,77 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f1f8; /* Fundo cinza claro */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Cor do texto */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff; /* Fundo branco */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1); /* Sombra suave */
+}
+
+h1 {
+    text-align: center;
+    color: #6a1b9a; /* Violeta para título */
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #6a1b9a; /* Violeta para subtítulos */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc; /* Cinza claro para separadores */
+    padding-bottom: 5px;
+}
+
+.list li span {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #6a1b9a; /* Violeta para o texto principal */
+}
+
+p {
+    margin-top: 10px;
+}
+
+#total-gastos, #total-investimentos {
+    font-weight: bold;
+    color: #f57c00; /* Laranja para total de gastos */
+}
+
+#total-investimentos {
+    color: #4caf50; /* Verde para total de investimentos */
+}
+
+#btn-calcular-total {
+    background-color: #6a1b9a; /* Violeta para o botão */
+    color: #fff; /* Texto branco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#btn-calcular-total:hover {
+    background-color: #4527a0; /* Violeta mais escuro no hover */
+}

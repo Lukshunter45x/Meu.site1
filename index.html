@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gastos e Investimentos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gastos e Investimentos Mensais</h1>
+        
+        <div class="section" id="gastos-section">
+            <h2>Gastos Mensais</h2>
+            <ul class="list" id="gastos-list">
+                <li><span>Julho- Alimentação (mercado, restaurante ):</span> <input type="number" class="edit-input" value="800"></li>
+            
+                <li><span>Julho- Transporte (gasolina):</span> <input type="number" class="edit-input" value="200"></li>
+                <li><span>Julho - Lazer (Rolê):</span> <input type="number" class="edit-input" value="300"></li>
+                <li><span>Julho - Educação (Curso):</span> <input type="number" class="edit-input" value="1200"></li>
+                <!-- Adicione os demais meses aqui -->
+            </ul>
+            <p>Total de Gastos Mensais: <span id="total-gastos">0</span></p>
+        </div>
+        
+        <div class="section" id="investimentos-section">
+            <h2>Investimentos</h2>
+            <ul class="list" id="investimentos-list">
+                <li><span>Julho - Fundos de Investimento:</span> <input type="number" class="edit-input" value="500"></li>
+                <li><span>Julho - Ações:</span> <input type="number" class="edit-input" value="300"></li>
+
+                <li><span>Julho - Reserva de Emergência:</span> <input type="number" class="edit-input" value="100"></li>
+                <li><span>Julho - Tesouro Direto:</span> <input type="number" class="edit-input" value="800"></li>
+                <!-- Adicione os demais meses aqui -->
+            </ul>
+            <p>Total de Investimentos Mensais: <span id="total-investimentos">0</span></p>
+        </div>
+
+        <button id="btn-calcular-total">Calcular Total</button>
+        <p id="total-geral">Total Geral: <span id="total-geral-valor">0</span></p>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
